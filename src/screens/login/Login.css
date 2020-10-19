@@ -1,0 +1,34 @@
+.login-header{
+    font-size: 30px;
+}
+
+.login-card{
+    display: block;
+    position: relative;
+    top: 10%;
+    bottom: 40%;
+    left: 37%;
+    right: 40%;
+    height: fit-content;
+    width: 30%;
+    overflow: visible;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px 40px;
+}
+
+.dispNone{
+    display: none;
+}
+
+.dispBlock{
+    display: block;
+}
+
+.red{
+    color: red;
+}
+
+.login-btn{
+    cursor: pointer;
+}
