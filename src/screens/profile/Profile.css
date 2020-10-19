@@ -1,0 +1,161 @@
+.profile-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 35px;
+}
+
+.profile-summary {
+    margin: 50px 0 0 270px;
+}
+
+.profile-summary-1 {
+    margin: 80px 0 0 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 30%;  
+}
+
+.right {
+     width: 70%;  
+}
+
+.spacing {
+    margin-left: 70px;
+}
+
+.top-spacing {
+    margin-top: 20px;
+}
+
+.top {
+    top: 20%;
+}
+
+.bottom {
+    bottom: 80%;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.dispNone {
+    display: none;
+}
+
+.red {
+    color: red;
+}
+
+.image-margins {
+    margin: 0 100px 0 100px
+}
+
+.image-modal {
+    top: 20px;
+    bottom: 20px;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.modal-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: 10;
+    margin-top: 10
+}
+
+.clicked-image {
+    margin-top: 10px;
+    height: 80%;
+    width: 95%;
+}
+
+.modal-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.right-top {
+    height: 15%;
+    margin-left: 10px;
+}
+
+.right-middle {
+    margin-top: 10px;
+    height: 50%;
+    margin-left: 10px;
+}
+
+.right-botton {
+    height: 10%;
+    margin-left: 10px;
+}
+
+.modal-profile-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.modal-username {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute; 
+}
+
+.image-hashtags {
+    color: rgb(122,188,255);
+}
+
+.image-liked-icon{
+    color:red; 
+}
+
+.image-like-icon{
+    color: black;
+}
+
+.comments-block {
+    margin-top: 15px;
+}
+
+.comment-display{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.comment-text{
+    padding-left:10px;
+    width:100%;
+}
+
+.comment-username{
+    font-size: inherit;
+}
+
+@media (max-width: 992px) {
+    .flex-container {
+        flex-direction: row;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 90%;
+    }
+    .image-grid-item {
+        margin: 8px;
+    }
+}
